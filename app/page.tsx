@@ -13,20 +13,20 @@ export default function Home() {
       <section className="relative z-10 w-full max-w-3xl text-center">
         <span className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-1.5 text-xs font-medium uppercase tracking-widest text-slate-300 backdrop-blur">
           <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-emerald-400" />
-          Hosted on Vercel
+          Coming Soon
         </span>
 
         <h1 className="mt-6 text-4xl font-bold tracking-tight sm:text-6xl">
           Welcome to{" "}
           <span className="bg-gradient-to-r from-indigo-300 via-fuchsia-300 to-rose-300 bg-clip-text text-transparent">
-            Vamsikrishna&apos;s
+            Vamsi Krishna&apos;s
           </span>{" "}
           Portfolio
         </h1>
 
         <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed text-slate-300 sm:text-lg">
-          A simple starter site built with Next.js and Tailwind CSS, deployed on
-          Vercel. Thanks for stopping by — feel free to reach out.
+          Hola people, I am Vamsi Krishna, based in Hyderabad. My portfolio is
+          coming soon. Thanks for visiting — contact me via email.
         </p>
 
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
@@ -47,7 +47,7 @@ export default function Home() {
               <rect width="20" height="16" x="2" y="4" rx="2" />
               <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
             </svg>
-            Get in touch
+            Contact via Email
           </a>
 
           <a
@@ -59,14 +59,14 @@ export default function Home() {
         </div>
 
         <div className="mt-16 grid gap-4 sm:grid-cols-3">
-          <Card title="Next.js 15" description="App Router, React 19, TypeScript." />
-          <Card title="Tailwind CSS" description="Utility-first, fully themeable." />
-          <Card title="Vercel" description="One-click global deployments." />
+          <Card title="Portfolio" description="Personal website launching soon." />
+          <Card title="Hyderabad" description="Based in Hyderabad, India." />
+          <Card title="Contact" description="Reach me anytime through email." />
         </div>
       </section>
 
       <footer className="relative z-10 mt-20 text-xs text-slate-400">
-        © {new Date().getFullYear()} Vamsikrishna. All rights reserved.
+        © {new Date().getFullYear()} Vamsi Krishna. All rights reserved.
       </footer>
     </main>
   );
